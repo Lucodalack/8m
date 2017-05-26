@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@drawable/bg_curv_edge"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clickable="false"
+    tools:ignore="MissingPrefix">
+    <ImageView
+        android:id="@+id/popup_detail_iv_background"
+        android:layout_width="300dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center_horizontal"
+        android:scaleType="centerCrop"
+        android:background="@drawable/detail_background"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#969696"/>
+    <TextView
+        android:id="@+id/popup_detail_tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sonata Coffee"
+        fontPath="fonts/Raleway-Bold.ttf"
+        android:textColor="#42B72A"
+        android:textSize="20sp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"/>
+    <TextView
+        android:id="@+id/popup_detail_tv_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="8AM - 10PM"
+        fontPath="fonts/Raleway-Bold.ttf"
+        android:textColor="#42B72A"
+        android:textSize="20sp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"/>
+    <TextView
+        android:id="@+id/popup_detail_tv_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0979156604"
+        fontPath="fonts/Raleway-Bold.ttf"
+        android:textColor="#878787"
+        android:textSize="15sp"
+        android:layout_marginLeft="10dp"/>
+
+    <TextView
+        android:id="@+id/popup_detail_tv_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gần ngã 3 trường Khoa học Tự nhiên"
+        fontPath="fonts/Raleway-Bold.ttf"
+        android:textColor="#878787"
+        android:textSize="15sp"
+        android:layout_marginLeft="10dp"/>
+    <Button
+        android:id="@+id/popup_detail_btn_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/bg_btn_detail"
+        android:text="detail"
+        android:textColor="#ffffff"
+        android:layout_gravity="center_horizontal"/>
+</LinearLayout>
